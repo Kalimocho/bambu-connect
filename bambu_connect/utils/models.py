@@ -127,6 +127,7 @@ class UpgradeState(BaseModel):
     ext_new_version_number: Optional[str] = None
     idx: Optional[int] = None
     idx1: Optional[int] = None
+    idx2: Optional[int] = None  # Added missing idx2 field
     lower_limit: Optional[str] = None
     ota_new_version_number: Optional[str] = None
     sn: Optional[str] = None
